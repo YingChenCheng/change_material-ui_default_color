@@ -11,36 +11,36 @@ React components for faster and easier web development. Build your own design sy
 #### 1. Determine the colors in an independent file
 For example,
 
-  import { createMuiTheme } from '@material-ui/core/styles';
-  
-  const theme = createMuiTheme({
-    palette: {
-      primary: {
-        light: '#8561c5',
-        main: '#673ab7',
-        dark: '#482880',
-        contrastText: '#eeeeee',
+    import { createMuiTheme } from '@material-ui/core/styles';
+
+    const theme = createMuiTheme({
+      palette: {
+        primary: {
+          light: '#8561c5',
+          main: '#673ab7',
+          dark: '#482880',
+          contrastText: '#eeeeee',
+        },
+        secondary: {
+          light: '#ffa733',
+          main: '#ff9100',
+          dark: '#b26500',
+          contrastText: '#202020',
+        },
       },
-      secondary: {
-        light: '#ffa733',
-        main: '#ff9100',
-        dark: '#b26500',
-        contrastText: '#202020',
-      },
-    },
-  });
-  
-  export default theme;
+    });
+
+    export default theme;
 
 #### 2. Import the path to the file which you want to use your setting
 like below:
 
-  import theme from '../../../theme'
+    import theme from '../../../theme'
 
 #### 3. Use the setting in the style information element
 like below: 
 
-  <p style={{color:theme.palette.secondary.main}}></p>
+    <p style={{color:theme.palette.secondary.main}}></p>
 
 ## Reference
 [Material-UI](https://material-ui.com/)
