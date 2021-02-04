@@ -4,7 +4,7 @@
 React components for faster and easier web development. Build your own design system, or start with Material Design.
 
 ### Installation
-1. Via VPN: `npm install @material-ui/core`
+1. Via NPM: `npm install @material-ui/core`
 2. Use a CDN: `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />`
 
 ### Usage
